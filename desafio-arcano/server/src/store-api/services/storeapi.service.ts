@@ -114,6 +114,7 @@ export class StoreapiService {
       region: highestRegion[0],
       NumberOfPurchases: highestRegion[1],
       productsHigh: productsInHighestRegion,
+      regions: regionsWithPurchases,
     };
   }
 }

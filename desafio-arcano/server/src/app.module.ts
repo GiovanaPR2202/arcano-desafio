@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { StoreapiModule } from './store-api/storeapi/storeapi.module';
+import { StoreapiModule } from './store-api/storeapi.module';
 
 @Module({
   imports: [StoreapiModule],
